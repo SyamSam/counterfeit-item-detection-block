@@ -12,10 +12,12 @@ Programming Language:
 - MySQL
 
 Framework:
+
 Frontend:
   - React.JS
   - NPM
   - Yarn
+
 Backend:
   - Express.js
 
