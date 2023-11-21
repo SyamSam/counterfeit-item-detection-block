@@ -29,8 +29,11 @@ Program:
 To run this system you need to start from:
 
 Backend (Express.js):
+
 node server.js
+
 Frontend (React.js):
+
 Yarn Start
 
 Thank you for reading this.
