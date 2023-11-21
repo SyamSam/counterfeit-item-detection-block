@@ -34,6 +34,12 @@ node server.js
 
 Frontend (React.js):
 
-Yarn Start
+yarn Start
+
+
+To log in the admin user is:
+
+admin
+admin
 
 Thank you for reading this.
