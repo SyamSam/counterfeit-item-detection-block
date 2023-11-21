@@ -1,6 +1,7 @@
 # counterfeit-item-detection-block
 
-This project is from my FYP project that I make everything from scratch and took references from other github repository as a way to understand how it works.
+This project is from my FYP project that I make most of the work from scratch and some visual and codes from other github repository as a way to understand how it works.
+
 
 The programming languages, framework and Programs that I used in this project are listed below:
 
@@ -27,6 +28,12 @@ Program:
 - Truffle
 
 To run this system you need to start from:
+
+Install express.js and yarn first before starting which the commands are:
+
+npm install (backend)
+
+yarn install (frontend)
 
 Backend (Express.js):
 
