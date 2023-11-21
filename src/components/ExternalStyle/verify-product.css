@@ -1,0 +1,47 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: justify;
+    width: 50%; /* Adjust the width as needed */
+    background-color: white;
+    padding: 20px; /* Add some padding for better spacing */
+    border-style: solid;
+  }
+
+  /* Add some spacing between elements */
+  .container > * {
+    margin-bottom: 10px;
+  }
+  
+  /* Center the button separately */
+  .container button {
+    margin-top: 10px;
+    height: 40px;
+    width: 60px;
+    align-self: center; 
+    padding: 10px 15px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .input {
+    font-size: 20px; /* Adjust the font size as needed */
+    padding: 5px; /* Add some padding to the input fields */
+  }
+  
+  label {
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+  

@@ -1,0 +1,86 @@
+{
+  "name": "counterfeit-item-detection-block",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2",
+    "@rollup/plugin-terser": "^0.4.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "browserify-zlib": "^0.2.0",
+    "chart.js": "^4.3.0",
+    "chartjs-adapter-moment": "^1.0.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "downloadjs": "^1.4.7",
+    "ethers": "^6.6.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "history": "^5.3.0",
+    "html-to-image": "^1.11.11",
+    "http-proxy-middleware": "^2.0.6",
+    "https-browserify": "^1.0.0",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "nth-check": "^2.1.1",
+    "qrcode-react": "^0.1.16",
+    "qrcode.react": "^3.1.0",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^17.0.2",
+    "react-download-link": "^2.3.0",
+    "react-router-dom": "^6.13.0",
+    "react-scripts": "^5.0.1",
+    "solidity": "^0.0.1",
+    "styled-components": "^5.3.3",
+    "tough-cookie": "^4.1.3",
+    "truffle": "^5.9.3",
+    "truffle-contract": "^4.0.31",
+    "url": "^0.11.1",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.10.0",
+    "webpack": "^5.88.1",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^8.2.0",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "webpack-cli": "^5.1.4"
+  },
+  "browser": {
+    "crypto": false,
+    "net": false,
+    "stream": false,
+    "timers": false,
+    "fs": false
+  },
+  "node": {
+    "net": false
+  },
+  "scripts": {
+    "start": "react-scripts start --port 4000",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "defaults"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8000"
+}

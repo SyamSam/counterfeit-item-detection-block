@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:  #DAD9FF;
+  height: 100%; /* Set the height of the body to 100% */
+  position: relative; /* Add position relative to establish a new stacking context */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%; /* Set the min-height of #root to 100% */
+  position: absolute; /* Use absolute positioning to stretch #root to full height */
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}

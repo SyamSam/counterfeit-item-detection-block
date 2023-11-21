@@ -1,0 +1,19 @@
+/* Style for the employee table */
+.employee-table {
+    width: 100%;
+    border-collapse: collapse; /* Merge cell borders */
+    border: 3px solid black; /* Add a border around the table */
+    background-color: rgba(250, 168, 216, 0.822);
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    padding: 12px;
+    text-align: left;
+    border: black solid; /* Add a border for table header and cells */
+  }
+  
+  .employee-table th {
+    background-color: white; /* Set background color for table header */
+  }
+  
