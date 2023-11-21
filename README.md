@@ -27,13 +27,14 @@ Program:
 - MySQL
 - Truffle
 
-To run this system you need to start from:
 
 Install express.js and yarn first before starting which the commands are:
 
 npm install (backend)
 
 yarn install (frontend)
+
+To run this system you need to start:
 
 Backend (Express.js):
 
